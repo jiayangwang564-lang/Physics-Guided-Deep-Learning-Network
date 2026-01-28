@@ -13,7 +13,7 @@ The project implements a Physics-Informed Bi-directional LSTM with Multi-Head At
 * **`Train.py`**: The training script. It handles data loading, feature engineering (XAJ parameters), normalization, and model training using the physics-informed loss[cite: 1].
 * **`Test.py`**: The evaluation script. It loads the trained weights (`model_weights.pth`), performs inference on the test set, and calculates performance metrics (NSE, RMSE)[cite: 2].
 * **`Data.csv`**: A demonstration dataset containing rainfall and water depth time series.
-* `Requirements.txt`**: List of Python dependencies required to run the model.
+* `requirements.txt`**: List of Python dependencies required to run the model.
 
 ## 🚀 Quick Start: How to Run the Model
 
